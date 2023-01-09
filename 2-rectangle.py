@@ -16,12 +16,13 @@ This module contains a class Rectangle
 
 """
 
+
 class Rectangle:
     """This is an class Rectangle with instance attribute heigth and width"""
-    
+
     def __init__(self, width=0, height=0):
         """
-        initializes height and width of the rectangle 
+        initializes height and width of the rectangle
         upon creation of an instance using property
         getters and setters
 
@@ -80,7 +81,7 @@ class Rectangle:
     def area(self):
         """
         The method area() returns the area of the rectangle
-        by taking the product of the width and height of the 
+        by taking the product of the width and height of the
         rectangle instance
 
         >>> my_rectangle = Rectangle(5, 8)
@@ -91,7 +92,7 @@ class Rectangle:
 
     def perimeter(self):
         """
-        The method perimeter() return the perimeter of the 
+        The method perimeter() return the perimeter of the
         rectangle by taking the sum of width and height of the
         rectangle, then multiplying the result by 2
 

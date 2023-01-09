@@ -15,10 +15,7 @@ This module contains a class Rectangle
 
 """
 
+
 class Rectangle:
     """This is an empty class"""
     pass
-
-if __name__ == "__main__":
-    import doctest
-    doctest.testmod()
